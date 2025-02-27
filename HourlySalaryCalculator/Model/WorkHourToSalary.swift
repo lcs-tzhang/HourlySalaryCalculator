@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+struct WorkHourToSalary: Identifiable{
+    
+    // MARK: Stored properties
+    let id = UUID()
+    let hoursWorkedInAWeek: Double
+    let hourlySalary: Double
+    
+    //MARK: Computed properties
+    var totalWeeklyEarning: Double{
+        return (hoursWorkedInAWeek * hourlySalary)
+    }
+}
