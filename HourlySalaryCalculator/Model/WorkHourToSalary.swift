@@ -19,3 +19,4 @@ struct WorkHourToSalary: Identifiable{
         return (hoursWorkedInAWeek * hourlySalary)
     }
 }
+
