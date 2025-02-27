@@ -6,17 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		517500BF2D70A73700CCB0D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517500B92D70A73700CCB0D3 /* Preview Assets.xcassets */; };
+		517500C02D70A73700CCB0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517500BB2D70A73700CCB0D3 /* Assets.xcassets */; };
+		517500C22D70A73700CCB0D3 /* WorkHourToSalaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517500BD2D70A73700CCB0D3 /* WorkHourToSalaryViewModel.swift */; };
+		517500C52D70A79100CCB0D3 /* WorkHourToSalary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517500C42D70A79100CCB0D3 /* WorkHourToSalary.swift */; };
+		517500C92D70A84100CCB0D3 /* WorkHourToSalaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517500C82D70A84100CCB0D3 /* WorkHourToSalaryView.swift */; };
+		517500CB2D70A85A00CCB0D3 /* WorkHourToSalaryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517500CA2D70A85A00CCB0D3 /* WorkHourToSalaryItemView.swift */; };
+		517500CD2D70A94B00CCB0D3 /* HourToSalaryCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517500CC2D70A94B00CCB0D3 /* HourToSalaryCalculatorApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		517500A82D70A6EC00CCB0D3 /* HourlySalaryCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HourlySalaryCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		517500B92D70A73700CCB0D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		517500BB2D70A73700CCB0D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		517500BD2D70A73700CCB0D3 /* WorkHourToSalaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkHourToSalaryViewModel.swift; sourceTree = "<group>"; };
+		517500C42D70A79100CCB0D3 /* WorkHourToSalary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkHourToSalary.swift; sourceTree = "<group>"; };
+		517500C82D70A84100CCB0D3 /* WorkHourToSalaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkHourToSalaryView.swift; sourceTree = "<group>"; };
+		517500CA2D70A85A00CCB0D3 /* WorkHourToSalaryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkHourToSalaryItemView.swift; sourceTree = "<group>"; };
+		517500CC2D70A94B00CCB0D3 /* HourToSalaryCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourToSalaryCalculatorApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		517500AA2D70A6EC00CCB0D3 /* HourlySalaryCalculator */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HourlySalaryCalculator;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		517500A52D70A6EC00CCB0D3 /* Frameworks */ = {
@@ -32,7 +41,7 @@
 		5175009F2D70A6EC00CCB0D3 = {
 			isa = PBXGroup;
 			children = (
-				517500AA2D70A6EC00CCB0D3 /* HourlySalaryCalculator */,
+				517500BE2D70A73700CCB0D3 /* HourlySalaryCalculator */,
 				517500A92D70A6EC00CCB0D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +52,52 @@
 				517500A82D70A6EC00CCB0D3 /* HourlySalaryCalculator.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		517500BA2D70A73700CCB0D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				517500B92D70A73700CCB0D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		517500BE2D70A73700CCB0D3 /* HourlySalaryCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				517500CC2D70A94B00CCB0D3 /* HourToSalaryCalculatorApp.swift */,
+				517500C32D70A74E00CCB0D3 /* Model */,
+				517500C62D70A7A000CCB0D3 /* ViewModels */,
+				517500C72D70A82600CCB0D3 /* Views */,
+				517500BA2D70A73700CCB0D3 /* Preview Content */,
+				517500BB2D70A73700CCB0D3 /* Assets.xcassets */,
+			);
+			path = HourlySalaryCalculator;
+			sourceTree = "<group>";
+		};
+		517500C32D70A74E00CCB0D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				517500C42D70A79100CCB0D3 /* WorkHourToSalary.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		517500C62D70A7A000CCB0D3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				517500BD2D70A73700CCB0D3 /* WorkHourToSalaryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		517500C72D70A82600CCB0D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				517500C82D70A84100CCB0D3 /* WorkHourToSalaryView.swift */,
+				517500CA2D70A85A00CCB0D3 /* WorkHourToSalaryItemView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +114,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				517500AA2D70A6EC00CCB0D3 /* HourlySalaryCalculator */,
 			);
 			name = HourlySalaryCalculator;
 			packageProductDependencies = (
@@ -109,6 +161,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				517500BF2D70A73700CCB0D3 /* Preview Assets.xcassets in Resources */,
+				517500C02D70A73700CCB0D3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				517500CB2D70A85A00CCB0D3 /* WorkHourToSalaryItemView.swift in Sources */,
+				517500C92D70A84100CCB0D3 /* WorkHourToSalaryView.swift in Sources */,
+				517500C52D70A79100CCB0D3 /* WorkHourToSalary.swift in Sources */,
+				517500C22D70A73700CCB0D3 /* WorkHourToSalaryViewModel.swift in Sources */,
+				517500CD2D70A94B00CCB0D3 /* HourToSalaryCalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

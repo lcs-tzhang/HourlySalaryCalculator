@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct HourlySalaryCalculatorApp: App {
+struct WorkHourToSalary: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
