@@ -16,7 +16,7 @@ struct WorkHourToSalaryItemView:View{
     var body: some View{
         HStack(spacing: 0){
             Text("\(calculatedResult.hoursWorkedInAWeek.formatted(.number.precision(.significantDigits(1...3))))h/week")
-            Text("$\(calculatedResult.totalWeeklyEarning.formatted(.number.precision(.significantDigits(1...3))))CAD")
+            Text("= $\(calculatedResult.totalWeeklyEarning.formatted(.number.precision(.significantDigits(1...3))))CAD")
         }
         .font(.largeTitle)
     }
